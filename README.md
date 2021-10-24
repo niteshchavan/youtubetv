@@ -9,6 +9,9 @@ sudo apt-get install --no-install-recommends chromium-browser
 
 nano /etc/xdg/openbox/autostart  (file uploaded)
 
+## Manuly start chromium browser only with pi user
+export DISPLAY=:0 && /etc/xdg/openbox/autostart
+
 # #
 add below line in .profile 
  
