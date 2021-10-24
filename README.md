@@ -3,7 +3,17 @@
 # Source
 https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
 
- /etc/xdg/openbox/autostart
+sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox
+
+sudo apt-get install --no-install-recommends chromium-browser
+
+nano /etc/xdg/openbox/autostart  (file uploaded)
+
+# #
+add below line in .profile 
+ 
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor
+
 
 # youtubetv
 Youtube TV for Raspberry Pi 4
