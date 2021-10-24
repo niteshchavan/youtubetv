@@ -27,7 +27,7 @@ unclutter -idle 0.01 -root
 # resolution_fix
 Fix resolution in screen
 
-#How to Adjust Screen Resolution
+# How to Adjust Screen Resolution
 
 Type in the following command if you are using a television: /opt/vc/bin/tvservice -m CEA or
 
