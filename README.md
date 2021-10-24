@@ -1,3 +1,10 @@
+
+# Chromium-Browser
+# Source
+https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
+
+ /etc/xdg/openbox/autostart
+
 # youtubetv
 Youtube TV for Raspberry Pi 4
 
@@ -15,3 +22,21 @@ DISPLAY=:0 chromium-browser -kiosk
 sudo apt-get install unclutter
 
 unclutter -idle 0.01 -root
+
+
+# resolution_fix
+Fix resolution in screen
+
+#How to Adjust Screen Resolution
+
+Type in the following command if you are using a television: /opt/vc/bin/tvservice -m CEA or
+
+type in the following command if you are using a PC monitor: /opt/vc/bin/tvservice -m DMT
+
+hdmi_group=1
+
+hdmi_mode=39
+
+
+# To remove Black boarders around screen
+disable_overscan=1
