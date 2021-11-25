@@ -9,6 +9,8 @@ sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xini
 
 sudo apt-get install --no-install-recommends chromium-browser
 
+sudo apt-get install upower
+
 nano /etc/xdg/openbox/autostart  (file uploaded)
 
 ## Manuly start chromium browser only with pi user
