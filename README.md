@@ -6,7 +6,7 @@ https://bartsimons.me/raspberry-pi-kiosk-tutorial/
 https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
 
 
-sudo apt-get install chromium-browser
+sudo apt-get install chromium
 
 sudo apt-get install upower
 
