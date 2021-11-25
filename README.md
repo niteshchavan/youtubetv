@@ -1,5 +1,5 @@
 
-# Install Chromium (Dont install chromium browser it crashes)
+# Install Chromium (Dont install chromium-browser it crashes)
 # Source
 
 
