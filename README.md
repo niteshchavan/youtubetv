@@ -5,16 +5,14 @@ https://bartsimons.me/raspberry-pi-kiosk-tutorial/
 
 https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
 
-sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox
+sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit
 
 sudo apt-get install --no-install-recommends chromium-browser
 
 sudo apt-get install upower
 
-nano /etc/xdg/openbox/autostart  (file uploaded)
-
 ## Manuly start chromium browser only with pi user
-export DISPLAY=:0 && /etc/xdg/openbox/autostart
+export DISPLAY=:0 && /nites/youtube
 
 # #
 add below line in .profile 
