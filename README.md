@@ -5,7 +5,6 @@ https://bartsimons.me/raspberry-pi-kiosk-tutorial/
 
 https://die-antwort.eu/techblog/2017-12-setup-raspberry-pi-for-kiosk-mode/
 
-sudo apt-get install --no-install-recommends xserver-xorg x11-xserver-utils xinit
 
 sudo apt-get install --no-install-recommends chromium-browser
 
