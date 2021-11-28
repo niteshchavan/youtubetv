@@ -2,18 +2,24 @@
 # Install Chromium (Dont install chromium-browser it crashes)
 # Source
 
-
+nano /boot/config.txt
+```
+[all]
+gpu_mem=256
+```
+```
 sudo apt-get install chromium -y
 
 sudo apt-get install upower -y
-
+```
 # (if u recieve Error libGLESv2.so.2: cannot open shared object file: No such file or directory)
-
+```
 sudo apt-get install libgles2-mesa -y 
-
+```
 ## Manuly start chromium browser only with pi user
+```
 export DISPLAY=:0 && /nites/youtube
-
+```
 # #
 add below line in .profile 
  
