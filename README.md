@@ -3,11 +3,13 @@
 # Source
 
 
-sudo apt-get install chromium
+sudo apt-get install chromium -y
 
-sudo apt-get install upower
+sudo apt-get install upower -y
 
-sudo apt-get install libgles2-mesa (if u recieve Error libGLESv2.so.2: cannot open shared object file: No such file or directory)
+# (if u recieve Error libGLESv2.so.2: cannot open shared object file: No such file or directory)
+
+sudo apt-get install libgles2-mesa -y 
 
 ## Manuly start chromium browser only with pi user
 export DISPLAY=:0 && /nites/youtube
