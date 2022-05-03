@@ -18,7 +18,8 @@ sudo apt-get install libgles2-mesa -y
 ```
 ## Manuly start chromium browser only with pi user
 ```
-export DISPLAY=:0 && /nites/youtube
+export DISPLAY=:0
+xhost+
 ```
 # #
 add below line in .profile 
